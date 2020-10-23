@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+
+#text {
+	margin: 10px 25px;
+	width: 60%
+
+}
+
+.inputs{
+	width: 15%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+select {
+	width: 100%;
+}
